@@ -1,16 +1,33 @@
-### Hi there 👋
+```java
+package LucasLima;
 
-<!--
-**LucasLimaDSGN/LucasLimaDSGN** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+import java.util.ArrayList;
+import java.util.List;
 
-Here are some ideas to get you started:
+public class About extends Me {
+    public List<String> getCurrentWorkplace() {
+        List<String> workplace = new ArrayList<>();
+        workplace.add("Looking for my first job in Tech");
+        workplace.add("Junior");
+        return workplace;
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public List<Class<?>> getDailyKnowledge() {
+        List<Class<?>> dailyKnowledge = new ArrayList<>();
+        dailyKnowledge.add(Java.class);
+        dailyKnowledge.add(Javascript.class);
+        dailyKnowledge.add(GoLang.class);
+        dailyKnowledge.add(Python.class);
+        dailyKnowledge.add(React.class);
+        dailyKnowledge.add(Angular.class);
+        dailyKnowledge.add(Bootstrap.class);
+        dailyKnowledge.add(Sass.class);
+        dailyKnowledge.add(Aws.class);
+        return dailyKnowledge;
+    }
+
+    public String getFutureGoal() {
+        return "To be an awesome TechLead in 8 years.";
+    }
+}
+```
